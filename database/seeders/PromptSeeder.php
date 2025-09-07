@@ -15,7 +15,7 @@ class PromptSeeder extends Seeder
         Prompt::firstOrCreate(
             ['title' => 'Halloween'],
             [
-                'prompt' => <<<PROMPT
+                'prompt' => <<<'PROMPT'
 A wide product shot, split into two equal halves.
 
 Left Half:
@@ -39,7 +39,7 @@ PROMPT,
                     ['placeholder' => 'mood'],
                     ['placeholder' => 'creature'],
                     ['placeholder' => 'accessory'],
-                    ],
+                ],
             ]
         );
     }
