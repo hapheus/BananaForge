@@ -2,12 +2,11 @@
 
 namespace App\Enums;
 
-enum GenerationStatus: string
+enum ImageRole: string
 {
-    case Queued = 'queued';
-    case Running = 'running';
-    case Done = 'done';
-    case Failed = 'failed';
+    case Full = 'full';
+    case Front = 'front';
+    case Back = 'back';
 
     public static function values(): array
     {
