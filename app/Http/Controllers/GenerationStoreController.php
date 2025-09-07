@@ -26,7 +26,7 @@ class GenerationStoreController extends Controller
 
         return Generation::create(
             [
-                'title' => 'Custom Figure: ' . $validated['creature'],
+                'title' => 'Custom Figure: '.$validated['creature'],
                 'prompt_id' => $prompt->id,
                 'input_values' => [
                     ['placeholder' => 'creature', 'value' => $validated['creature']],
