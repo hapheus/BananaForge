@@ -150,6 +150,10 @@
         </a>
     </div>
     <div>
+        <span class="footer-title">Social</span>
+        <a href="https://github.com/hapheus/BananaForge" class="link link-hover">GitHub</a>
+    </div>
+    <div>
         <span class="footer-title">Legal</span>
         <p>Copyright © {{ date('Y') }} - All right reserved</p>
     </div>
